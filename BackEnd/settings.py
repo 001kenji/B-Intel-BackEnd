@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ['127.0.0.1', ".vercel.app", ".now.sh"]
 # Application definition
 
 INSTALLED_APPS = [
-    'BackApp.apps.BackappConfig',
+    'BackApp',
     "corsheaders",
     'rest_framework',
     'django.contrib.admin',
