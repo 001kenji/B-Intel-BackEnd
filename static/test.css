@@ -1,0 +1,11 @@
+body{
+    background-color: azure;
+    color: black;
+}
+
+footer {
+    /* font-family: smallPoppin; */
+    font-size: small;
+   display: flex;
+   
+}

@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  rel="icon" type="image/svg+xml/png" href="./letter-b.png" />
+
+    
+    <link rel="stylesheet" href="{% static 'test.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-Intel Error</title>
+</head>
+<body>
+    
+    <p class=" py-52 bg-green-700">welcome to the home page</p>
+
+    <footer>
+        <blockquote>All Rights Reserved &#169; <p id="year"></p> | Designed by: <a  href="https://briannjuguna.netlify.app/">Brian Njuguna</a> </blockquote>
+    </footer>
+</body>
+<script>
+    test = document.getElementById('year')
+    test.innerHTML= 'this is a test'
+  </script>
+
+
+
+<script>
+    
+    dispyear = document.getElementById('year')
+    date = new Date()
+    year = date.getFullYear()
+    dispyear.innerHTML = year
+</script>
+</html>
